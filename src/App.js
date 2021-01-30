@@ -1,13 +1,14 @@
 import logo from './logo.svg';
+
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src= {`${process.env.PUBLIC_URL}/assets/hyatt.jpg`} className="App-logo" alt="logo" width="250px" height="80px"/>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Welcomes To Hyatt Hotel
         </p>
         <a
           className="App-link"
@@ -15,7 +16,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React in less than a day
+          Learning React in less than a day
         </a>
       </header>
     </div>
